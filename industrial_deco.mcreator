@@ -279,6 +279,118 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "vent_cover_3b_exchange"
+    },
+    {
+      "name": "IronBarRestoreFromGrates1",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bar_restore_from_grates_1"
+    },
+    {
+      "name": "IronBarRestoreFromGrates2",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bar_restore_from_grates_2"
+    },
+    {
+      "name": "IronBarRestoreFromGrates3",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bar_restore_from_grates_3"
+    },
+    {
+      "name": "IronBarRestoreFromGrates4",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bar_restore_from_grates_4"
+    },
+    {
+      "name": "IronBarRestoreFromGrates5",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bar_restore_from_grates_5"
+    },
+    {
+      "name": "IronBarRestoreFromGrates6",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bar_restore_from_grates_6"
+    },
+    {
+      "name": "IronBarRestoreFromGrates7",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bar_restore_from_grates_7"
+    },
+    {
+      "name": "IronBarRestoreFromGrates8",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bar_restore_from_grates_8"
+    },
+    {
+      "name": "IronBarRestoreFromGrates9",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bar_restore_from_grates_9"
+    },
+    {
+      "name": "IronBarRestoreFromGrates10",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bar_restore_from_grates_10"
+    },
+    {
+      "name": "IronBarRestoreFromGrates11",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bar_restore_from_grates_11"
+    },
+    {
+      "name": "IronBarRestoreFromGrates12",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bar_restore_from_grates_12"
+    },
+    {
+      "name": "IronBarRestoreFromGrates13",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bar_restore_from_grates_13"
+    },
+    {
+      "name": "IronBarRestoreFromGrates14",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bar_restore_from_grates_14"
     }
   ],
   "variable_elements": [],

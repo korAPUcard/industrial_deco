@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "industrial_deco:vent_cover_2b"
+  },
+  "result": "minecraft:iron_bars"
+}

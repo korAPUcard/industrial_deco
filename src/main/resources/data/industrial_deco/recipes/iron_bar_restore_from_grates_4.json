@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "industrial_deco:grate_wall_1b"
+  },
+  "result": "minecraft:iron_bars"
+}
