@@ -14,7 +14,7 @@
 ### Description
 This MOD will add a few industrial decorative things in Minecraft.
 
-*ATTENTION: This project is unstable(Not mod itself). Therefore, there is a possibility that development will be delayed too long or no more updated at any time if no more idea or nobody using it.*
+~~ATTENTION: This project is unstable(Not mod itself). Therefore, there is a possibility that development will be delayed too long or no more updated at any time if no more idea or nobody using it.~~
 
 #### ATTENTION: This project's release schedule was cancelled by fatal technical difficulties. The Project file is broken, JAR file export was failed.
 
