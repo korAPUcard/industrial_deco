@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "industrial_deco:block/grate_wall_1a"
+    },
+    "facing=east": {
+      "model": "industrial_deco:block/grate_wall_1a",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "industrial_deco:block/grate_wall_1a",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "industrial_deco:block/grate_wall_1a",
+      "y": 270
+    }
+  }
+}

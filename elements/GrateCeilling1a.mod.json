@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "grate_floor_1b:default",
+    "customModelName": "grate_ceilling_1a:default",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -24,15 +24,15 @@
     "boundingBoxes": [
       {
         "mx": 0.0,
-        "my": 7.5,
+        "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 8.5,
+        "My": 1.0,
         "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Grate Floor 1 」b(Type B)」f",
+    "name": "Grate Ceilling 1 」b(Type A)」f",
     "specialInfo": [],
     "hardness": 5.0,
     "resistance": 6.0,

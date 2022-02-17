@@ -40,12 +40,12 @@ import java.util.List;
 import java.util.Collections;
 
 @IndustrialDecoModElements.ModElement.Tag
-public class GrateFloor1bBlock extends IndustrialDecoModElements.ModElement {
-	@ObjectHolder("industrial_deco:grate_floor_1b")
+public class GrateCeilling1aBlock extends IndustrialDecoModElements.ModElement {
+	@ObjectHolder("industrial_deco:grate_ceilling_1a")
 	public static final Block block = null;
 
-	public GrateFloor1bBlock(IndustrialDecoModElements instance) {
-		super(instance, 3);
+	public GrateCeilling1aBlock(IndustrialDecoModElements instance) {
+		super(instance, 11);
 	}
 
 	@Override
@@ -68,7 +68,7 @@ public class GrateFloor1bBlock extends IndustrialDecoModElements.ModElement {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 6f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(WATERLOGGED, false));
-			setRegistryName("grate_floor_1b");
+			setRegistryName("grate_ceilling_1a");
 		}
 
 		@Override
@@ -84,7 +84,7 @@ public class GrateFloor1bBlock extends IndustrialDecoModElements.ModElement {
 		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
-			return VoxelShapes.or(makeCuboidShape(0, 7.5, 0, 16, 8.5, 16)
+			return VoxelShapes.or(makeCuboidShape(0, 0, 0, 16, 1, 16)
 
 			)
 

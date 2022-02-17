@@ -1,25 +1,29 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
       "tag": "forge:rods/iron"
     },
-    {
+    "1": {
       "tag": "forge:rods/iron"
     },
-    {
+    "2": {
       "tag": "forge:rods/iron"
     },
-    {
+    "3": {
       "tag": "forge:rods/iron"
     },
-    {
+    "4": {
       "tag": "forge:rods/iron"
     },
-    {
+    "5": {
       "tag": "forge:rods/iron"
     }
-  ],
+  },
   "result": {
     "item": "minecraft:iron_bars",
     "count": 16

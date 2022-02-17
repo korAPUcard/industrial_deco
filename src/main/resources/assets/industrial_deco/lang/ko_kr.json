@@ -1,0 +1,10 @@
+{
+  "block.industrial_deco.grate_floor_1a": "쇠격자 바닥 1 §b(A 형태)§f",
+  "block.industrial_deco.grate_floor_1b": "쇠격자 바닥 1 §b(B 형태)§f",
+  "itemGroup.tabindustrial_deco_tab": "산업용 장식",
+  "block.industrial_deco.grate_ceilling_1a": "쇠격자 천장 §b(A 형태)§f",
+  "block.industrial_deco.grate_ceilling_1b": "쇠격자 천장 §b(Type B)§f",
+  "block.industrial_deco.grate_wall_1b": "Grate Wall §b(Type B)§f",
+  "item.industrial_deco.iron_stick": "Iron Stick",
+  "block.industrial_deco.grate_wall_1a": "Grate Wall §b(Type A)§f"
+}

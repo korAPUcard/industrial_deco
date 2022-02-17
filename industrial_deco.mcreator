@@ -73,22 +73,92 @@
       "registry_name": "iron_stick_crafting"
     },
     {
-      "name": "IronStickCraftingAlternative",
-      "type": "recipe",
+      "name": "GrateWall1a",
+      "type": "block",
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "iron_stick_crafting_alternative"
+      "registry_name": "grate_wall_1a"
+    },
+    {
+      "name": "GrateWall1b",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grate_wall_1b"
+    },
+    {
+      "name": "GrateCeilling1a",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grate_ceilling_1a"
+    },
+    {
+      "name": "GrateCeilling1b",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grate_ceilling_1b"
+    },
+    {
+      "name": "GrateWall1aExchange",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grate_wall_1a_exchange"
+    },
+    {
+      "name": "GrateWall1bExchange",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grate_wall_1b_exchange"
+    },
+    {
+      "name": "GrateCeilling1aExchange",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grate_ceilling_1a_exchange"
+    },
+    {
+      "name": "GrateCeilling1bExchange",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grate_ceilling_1b_exchange"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
+    "ko_kr": {
+      "block.industrial_deco.grate_floor_1a": "쇠격자 바닥 1 §b(A 형태)§f",
+      "block.industrial_deco.grate_floor_1b": "쇠격자 바닥 1 §b(B 형태)§f",
+      "itemGroup.tabindustrial_deco_tab": "산업용 장식",
+      "block.industrial_deco.grate_ceilling_1a": "쇠격자 천장 1 §b(A 형태)§f",
+      "block.industrial_deco.grate_ceilling_1b": "쇠격자 천장 1 §b(B 형태)§f",
+      "block.industrial_deco.grate_wall_1b": "쇠격자 벽 1 §b(B 형태)§f",
+      "item.industrial_deco.iron_stick": "철 막대",
+      "block.industrial_deco.grate_wall_1a": "쇠격자 벽 1 §b(A 형태)§f"
+    },
     "en_us": {
-      "block.industrial_deco.grate_floor_1a": "Grate Floor 1 (Type A)",
-      "block.industrial_deco.grate_floor_1b": "Grate Floor 1 (Type B)",
+      "block.industrial_deco.grate_floor_1a": "Grate Floor 1 §b(Type A)§f",
+      "block.industrial_deco.grate_floor_1b": "Grate Floor 1 §b(Type B)§f",
       "itemGroup.tabindustrial_deco_tab": "Industrial Decorations",
-      "item.industrial_deco.iron_stick": "Iron Stick"
+      "block.industrial_deco.grate_ceilling_1a": "Grate Ceilling 1 §b(Type A)§f",
+      "block.industrial_deco.grate_ceilling_1b": "Grate Ceilling 1 §b(Type B)§f",
+      "block.industrial_deco.grate_wall_1b": "Grate Wall 1 §b(Type B)§f",
+      "item.industrial_deco.iron_stick": "Iron Stick",
+      "block.industrial_deco.grate_wall_1a": "Grate Wall 1 §b(Type A)§f"
     }
   },
   "foldersRoot": {

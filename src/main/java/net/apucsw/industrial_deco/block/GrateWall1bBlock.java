@@ -14,9 +14,12 @@ import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Rotation;
+import net.minecraft.util.Mirror;
 import net.minecraft.util.Direction;
 import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.state.StateContainer;
+import net.minecraft.state.DirectionProperty;
 import net.minecraft.state.BooleanProperty;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
@@ -30,6 +33,7 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.IWaterLoggable;
+import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -40,12 +44,12 @@ import java.util.List;
 import java.util.Collections;
 
 @IndustrialDecoModElements.ModElement.Tag
-public class GrateFloor1bBlock extends IndustrialDecoModElements.ModElement {
-	@ObjectHolder("industrial_deco:grate_floor_1b")
+public class GrateWall1bBlock extends IndustrialDecoModElements.ModElement {
+	@ObjectHolder("industrial_deco:grate_wall_1b")
 	public static final Block block = null;
 
-	public GrateFloor1bBlock(IndustrialDecoModElements instance) {
-		super(instance, 3);
+	public GrateWall1bBlock(IndustrialDecoModElements instance) {
+		super(instance, 10);
 	}
 
 	@Override
@@ -62,13 +66,14 @@ public class GrateFloor1bBlock extends IndustrialDecoModElements.ModElement {
 	}
 
 	public static class CustomBlock extends Block implements IWaterLoggable {
+		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 6f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
-			this.setDefaultState(this.stateContainer.getBaseState().with(WATERLOGGED, false));
-			setRegistryName("grate_floor_1b");
+			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH).with(WATERLOGGED, false));
+			setRegistryName("grate_wall_1b");
 		}
 
 		@Override
@@ -84,22 +89,52 @@ public class GrateFloor1bBlock extends IndustrialDecoModElements.ModElement {
 		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
-			return VoxelShapes.or(makeCuboidShape(0, 7.5, 0, 16, 8.5, 16)
+			switch ((Direction) state.get(FACING)) {
+				case SOUTH :
+				default :
+					return VoxelShapes.or(makeCuboidShape(16, 0, 8.5, 0, 16, 7.5)
 
-			)
+					)
 
-					.withOffset(offset.x, offset.y, offset.z);
-		}
+							.withOffset(offset.x, offset.y, offset.z);
+				case NORTH :
+					return VoxelShapes.or(makeCuboidShape(0, 0, 7.5, 16, 16, 8.5)
 
-		@Override
-		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;
-			return this.getDefaultState().with(WATERLOGGED, flag);
+					)
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case EAST :
+					return VoxelShapes.or(makeCuboidShape(8.5, 0, 0, 7.5, 16, 16)
+
+					)
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case WEST :
+					return VoxelShapes.or(makeCuboidShape(7.5, 0, 16, 8.5, 16, 0)
+
+					)
+
+							.withOffset(offset.x, offset.y, offset.z);
+			}
 		}
 
 		@Override
 		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
-			builder.add(WATERLOGGED);
+			builder.add(FACING, WATERLOGGED);
+		}
+
+		public BlockState rotate(BlockState state, Rotation rot) {
+			return state.with(FACING, rot.rotate(state.get(FACING)));
+		}
+
+		public BlockState mirror(BlockState state, Mirror mirrorIn) {
+			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
+		}
+
+		@Override
+		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;;
+			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite()).with(WATERLOGGED, flag);
 		}
 
 		@Override

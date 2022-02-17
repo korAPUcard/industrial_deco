@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "grate_floor_1b:default",
+    "customModelName": "grate_ceilling_1b:default",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Grate Floor 1 」b(Type B)」f",
+    "name": "Grate Ceilling 1 」b(Type B)」f",
     "specialInfo": [],
     "hardness": 5.0,
     "resistance": 6.0,

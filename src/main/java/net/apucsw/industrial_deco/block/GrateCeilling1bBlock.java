@@ -40,12 +40,12 @@ import java.util.List;
 import java.util.Collections;
 
 @IndustrialDecoModElements.ModElement.Tag
-public class GrateFloor1bBlock extends IndustrialDecoModElements.ModElement {
-	@ObjectHolder("industrial_deco:grate_floor_1b")
+public class GrateCeilling1bBlock extends IndustrialDecoModElements.ModElement {
+	@ObjectHolder("industrial_deco:grate_ceilling_1b")
 	public static final Block block = null;
 
-	public GrateFloor1bBlock(IndustrialDecoModElements instance) {
-		super(instance, 3);
+	public GrateCeilling1bBlock(IndustrialDecoModElements instance) {
+		super(instance, 12);
 	}
 
 	@Override
@@ -68,7 +68,7 @@ public class GrateFloor1bBlock extends IndustrialDecoModElements.ModElement {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 6f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(WATERLOGGED, false));
-			setRegistryName("grate_floor_1b");
+			setRegistryName("grate_ceilling_1b");
 		}
 
 		@Override
