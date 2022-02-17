@@ -17,8 +17,8 @@ archivesBaseName = 'industrial_deco'
 java.toolchain.languageVersion = JavaLanguageVersion.of(8)
 
 minecraft {
-    //mappings channel: 'snapshot', version: '20201028-1.16.3'
-	 mappings channel: 'official', version: '1.16.5'
+    mappings channel: 'snapshot', version: '20201028-1.16.3'
+	//mappings channel: 'official', version: '1.16.5'
 
     runs {
         client {
@@ -27,10 +27,10 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
 
-            //jvmArgs = [
-            //        "--add-exports=java.base/sun.security.util=ALL-UNNAMED",
-            //        "--add-opens=java.base/java.util.jar=ALL-UNNAMED"
-            //]
+            jvmArgs = [
+                    "--add-exports=java.base/sun.security.util=ALL-UNNAMED",
+                    "--add-opens=java.base/java.util.jar=ALL-UNNAMED"
+            ]
 
             mods {
                 industrial_deco {
@@ -45,10 +45,10 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
 
-            //jvmArgs = [
-            //        "--add-exports=java.base/sun.security.util=ALL-UNNAMED",
-            //        "--add-opens=java.base/java.util.jar=ALL-UNNAMED"
-            //]
+            jvmArgs = [
+                    "--add-exports=java.base/sun.security.util=ALL-UNNAMED",
+                    "--add-opens=java.base/java.util.jar=ALL-UNNAMED"
+            ]
 
             mods {
                 industrial_deco {
