@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:rods/iron"
+    },
+    {
+      "tag": "forge:rods/iron"
+    },
+    {
+      "tag": "forge:rods/iron"
+    },
+    {
+      "tag": "forge:rods/iron"
+    },
+    {
+      "tag": "forge:rods/iron"
+    },
+    {
+      "tag": "forge:rods/iron"
+    }
+  ],
+  "result": {
+    "item": "minecraft:iron_bars",
+    "count": 16
+  }
+}

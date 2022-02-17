@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "Blocks.IRON_BARS"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:GrateFloor1b"
+    },
+    "name": "grate_floor_1b_exchange",
+    "namespace": "mod"
+  }
+}

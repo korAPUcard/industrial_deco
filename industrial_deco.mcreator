@@ -1,9 +1,95 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "IndustrialDecoTab",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_deco_tab"
+    },
+    {
+      "name": "IronStick",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_stick"
+    },
+    {
+      "name": "GrateFloor1a",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grate_floor_1a"
+    },
+    {
+      "name": "GrateFloor1b",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grate_floor_1b"
+    },
+    {
+      "name": "ForgeIronStick",
+      "type": "tag",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_iron_stick"
+    },
+    {
+      "name": "IronBarsCraftingAlternative",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bars_crafting_alternative"
+    },
+    {
+      "name": "GrateFloor1aExchange",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grate_floor_1a_exchange"
+    },
+    {
+      "name": "GrateFloor1bExchange",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grate_floor_1b_exchange"
+    },
+    {
+      "name": "IronStickCrafting",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_stick_crafting"
+    },
+    {
+      "name": "IronStickCraftingAlternative",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_stick_crafting_alternative"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.industrial_deco.grate_floor_1a": "Grate Floor 1 (Type A)",
+      "block.industrial_deco.grate_floor_1b": "Grate Floor 1 (Type B)",
+      "itemGroup.tabindustrial_deco_tab": "Industrial Decorations",
+      "item.industrial_deco.iron_stick": "Iron Stick"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -12,10 +98,10 @@
   "workspaceSettings": {
     "modid": "industrial_deco",
     "modName": "Industrial Decorations",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "author": "KOR_APUcard, MCreator",
     "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "license": "Creative Commons Attribution-ShareAlike 4.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
