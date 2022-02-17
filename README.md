@@ -14,6 +14,9 @@
 ### Description
 This MOD will add a few industrial decorative things in Minecraft.
 
-#### ATTENTION: This project is unstable(Not mod itself). Therefore, there is a possibility that development will be delayed too long or no more updated at any time if no more idea or nobody using it.
+~~ATTENTION: This project is unstable(Not mod itself). Therefore, there is a possibility that development will be delayed too long or no more updated at any time if no more idea or nobody using it.~~
 
-It's work in progress.
+#### ATTENTION: This project's release schedule was cancelled by fatal technical difficulties. The Project file is broken, JAR file export was failed.
+
+I really hate MCreator... It's ruined all my mod projects. Because it's always using snapshot version and not supported official version anyway.   
+Originally, I'm working all Minecraft MOD projects in IntelliJ. I will revert all projects to IntelliJ project soon as possible. But not now.
