@@ -1,10 +1,16 @@
 {
+  "block.industrial_deco.vent_cover_1a": "통풍구 뚜껑 1 §b(A 형태)§f",
+  "block.industrial_deco.vent_cover_2b": "통풍구 뚜껑 2 §b(B 형태)§f",
+  "block.industrial_deco.vent_cover_1b": "통풍구 뚜껑 1 §b(B 형태)§f",
   "block.industrial_deco.grate_floor_1a": "쇠격자 바닥 1 §b(A 형태)§f",
+  "block.industrial_deco.vent_cover_2a": "통풍구 뚜껑 2 §b(A 형태)§f",
   "block.industrial_deco.grate_floor_1b": "쇠격자 바닥 1 §b(B 형태)§f",
   "itemGroup.tabindustrial_deco_tab": "산업용 장식",
-  "block.industrial_deco.grate_ceilling_1a": "쇠격자 천장 §b(A 형태)§f",
-  "block.industrial_deco.grate_ceilling_1b": "쇠격자 천장 §b(Type B)§f",
-  "block.industrial_deco.grate_wall_1b": "Grate Wall §b(Type B)§f",
-  "item.industrial_deco.iron_stick": "Iron Stick",
-  "block.industrial_deco.grate_wall_1a": "Grate Wall §b(Type A)§f"
+  "block.industrial_deco.grate_ceilling_1a": "쇠격자 천장 1 §b(A 형태)§f",
+  "block.industrial_deco.grate_ceilling_1b": "쇠격자 천장 1 §b(B 형태)§f",
+  "block.industrial_deco.grate_wall_1b": "쇠격자 벽 1 §b(B 형태)§f",
+  "block.industrial_deco.sewer_cover_1a": "하수구 뚜껑 1 §b(A 형태)§f",
+  "block.industrial_deco.sewer_cover_1b": "하수구 뚜껑 1 §b(B 형태)§f",
+  "item.industrial_deco.iron_stick": "철 막대",
+  "block.industrial_deco.grate_wall_1a": "쇠격자 벽 1 §b(A 형태)§f"
 }

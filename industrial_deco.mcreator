@@ -135,28 +135,136 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "grate_ceilling_1b_exchange"
+    },
+    {
+      "name": "SewerCover1a",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sewer_cover_1a"
+    },
+    {
+      "name": "SewerCover1b",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sewer_cover_1b"
+    },
+    {
+      "name": "VentCover1a",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vent_cover_1a"
+    },
+    {
+      "name": "VentCover1b",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vent_cover_1b"
+    },
+    {
+      "name": "VentCover2a",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vent_cover_2a"
+    },
+    {
+      "name": "VentCover2b",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vent_cover_2b"
+    },
+    {
+      "name": "SewerCover1aExchange",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sewer_cover_1a_exchange"
+    },
+    {
+      "name": "SewerCover1bExchange",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sewer_cover_1b_exchange"
+    },
+    {
+      "name": "VentCover1aExchange",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vent_cover_1a_exchange"
+    },
+    {
+      "name": "VentCover1bExchange",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vent_cover_1b_exchange"
+    },
+    {
+      "name": "VentCover2aExchange",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vent_cover_2a_exchange"
+    },
+    {
+      "name": "VentCover2bExchange",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vent_cover_2b_exchange"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "ko_kr": {
+      "block.industrial_deco.vent_cover_1a": "ÅëÇ³±¸ ¶Ñ²± 1 ¡×b(A ÇüÅÂ)¡×f",
+      "block.industrial_deco.vent_cover_2b": "ÅëÇ³±¸ ¶Ñ²± 2 ¡×b(B ÇüÅÂ)¡×f",
+      "block.industrial_deco.vent_cover_1b": "ÅëÇ³±¸ ¶Ñ²± 1 ¡×b(B ÇüÅÂ)¡×f",
       "block.industrial_deco.grate_floor_1a": "¼è°ÝÀÚ ¹Ù´Ú 1 ¡×b(A ÇüÅÂ)¡×f",
+      "block.industrial_deco.vent_cover_2a": "ÅëÇ³±¸ ¶Ñ²± 2 ¡×b(A ÇüÅÂ)¡×f",
       "block.industrial_deco.grate_floor_1b": "¼è°ÝÀÚ ¹Ù´Ú 1 ¡×b(B ÇüÅÂ)¡×f",
       "itemGroup.tabindustrial_deco_tab": "»ê¾÷¿ë Àå½Ä",
       "block.industrial_deco.grate_ceilling_1a": "¼è°ÝÀÚ ÃµÀå 1 ¡×b(A ÇüÅÂ)¡×f",
       "block.industrial_deco.grate_ceilling_1b": "¼è°ÝÀÚ ÃµÀå 1 ¡×b(B ÇüÅÂ)¡×f",
       "block.industrial_deco.grate_wall_1b": "¼è°ÝÀÚ º® 1 ¡×b(B ÇüÅÂ)¡×f",
+      "block.industrial_deco.sewer_cover_1a": "ÇÏ¼ö±¸ ¶Ñ²± 1 ¡×b(A ÇüÅÂ)¡×f",
+      "block.industrial_deco.sewer_cover_1b": "ÇÏ¼ö±¸ ¶Ñ²± 1 ¡×b(B ÇüÅÂ)¡×f",
       "item.industrial_deco.iron_stick": "Ã¶ ¸·´ë",
       "block.industrial_deco.grate_wall_1a": "¼è°ÝÀÚ º® 1 ¡×b(A ÇüÅÂ)¡×f"
     },
     "en_us": {
+      "block.industrial_deco.vent_cover_1a": "Vent Cover 1 ¡×b(Type A)¡×f",
+      "block.industrial_deco.vent_cover_2b": "Vent Cover 2 ¡×b(Type B)¡×f",
+      "block.industrial_deco.vent_cover_1b": "Vent Cover 1 ¡×b(Type B)¡×f",
       "block.industrial_deco.grate_floor_1a": "Grate Floor 1 ¡×b(Type A)¡×f",
+      "block.industrial_deco.vent_cover_2a": "Vent Cover 2 ¡×b(Type A)¡×f",
       "block.industrial_deco.grate_floor_1b": "Grate Floor 1 ¡×b(Type B)¡×f",
       "itemGroup.tabindustrial_deco_tab": "Industrial Decorations",
       "block.industrial_deco.grate_ceilling_1a": "Grate Ceilling 1 ¡×b(Type A)¡×f",
       "block.industrial_deco.grate_ceilling_1b": "Grate Ceilling 1 ¡×b(Type B)¡×f",
       "block.industrial_deco.grate_wall_1b": "Grate Wall 1 ¡×b(Type B)¡×f",
+      "block.industrial_deco.sewer_cover_1a": "Sewer Cover 1 ¡×b(Type A)¡×f",
+      "block.industrial_deco.sewer_cover_1b": "Sewer Cover 1 ¡×b(Type B)¡×f",
       "item.industrial_deco.iron_stick": "Iron Stick",
       "block.industrial_deco.grate_wall_1a": "Grate Wall 1 ¡×b(Type A)¡×f"
     }
