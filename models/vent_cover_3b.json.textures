@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "vent_cover",
+        "1": "vent_cover_extend_0"
+      },
+      "name": "default"
+    }
+  }
+}

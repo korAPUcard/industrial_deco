@@ -1,0 +1,56 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:GrateFloor1a"
+      },
+      {
+        "value": "CUSTOM:GrateFloor1b"
+      },
+      {
+        "value": "CUSTOM:GrateWall1a"
+      },
+      {
+        "value": "CUSTOM:GrateWall1b"
+      },
+      {
+        "value": "CUSTOM:GrateCeilling1a"
+      },
+      {
+        "value": "CUSTOM:GrateCeilling1b"
+      },
+      {
+        "value": "CUSTOM:SewerCover1a"
+      },
+      {
+        "value": "CUSTOM:SewerCover1b"
+      },
+      {
+        "value": "CUSTOM:VentCover1a"
+      },
+      {
+        "value": "CUSTOM:VentCover1b"
+      },
+      {
+        "value": "CUSTOM:VentCover2a"
+      },
+      {
+        "value": "CUSTOM:VentCover2b"
+      },
+      {
+        "value": "CUSTOM:VentCover3a"
+      },
+      {
+        "value": "CUSTOM:VentCover3b"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "rain_throughable_blocks",
+    "namespace": "mod"
+  }
+}

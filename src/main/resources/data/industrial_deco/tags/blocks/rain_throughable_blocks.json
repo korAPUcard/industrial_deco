@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "industrial_deco:grate_ceilling_1b",
+    "industrial_deco:grate_ceilling_1a",
+    "industrial_deco:vent_cover_1b",
+    "industrial_deco:vent_cover_1a",
+    "industrial_deco:vent_cover_2b",
+    "industrial_deco:vent_cover_2a",
+    "industrial_deco:vent_cover_3b",
+    "industrial_deco:vent_cover_3a",
+    "industrial_deco:grate_floor_1b",
+    "industrial_deco:grate_floor_1a",
+    "industrial_deco:sewer_cover_1a",
+    "industrial_deco:sewer_cover_1b",
+    "industrial_deco:grate_wall_1b",
+    "industrial_deco:grate_wall_1a"
+  ]
+}

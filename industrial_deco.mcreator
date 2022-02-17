@@ -231,6 +231,54 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "vent_cover_2b_exchange"
+    },
+    {
+      "name": "RainThroughableBlocks",
+      "type": "tag",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rain_throughable_blocks"
+    },
+    {
+      "name": "SnowPartitialyStackable",
+      "type": "tag",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow_partitialy_stackable"
+    },
+    {
+      "name": "VentCover3a",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vent_cover_3a"
+    },
+    {
+      "name": "VentCover3b",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vent_cover_3b"
+    },
+    {
+      "name": "VentCover3aExchange",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vent_cover_3a_exchange"
+    },
+    {
+      "name": "VentCover3bExchange",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vent_cover_3b_exchange"
     }
   ],
   "variable_elements": [],
@@ -241,7 +289,9 @@
       "block.industrial_deco.vent_cover_2b": "ÅëÇ³±¸ ¶Ñ²± 2 ¡×b(B ÇüÅÂ)¡×f",
       "block.industrial_deco.vent_cover_1b": "ÅëÇ³±¸ ¶Ñ²± 1 ¡×b(B ÇüÅÂ)¡×f",
       "block.industrial_deco.grate_floor_1a": "¼è°İÀÚ ¹Ù´Ú 1 ¡×b(A ÇüÅÂ)¡×f",
+      "block.industrial_deco.vent_cover_3a": "ÅëÇ³±¸ ¶Ñ²± 3 ¡×b(A ÇüÅÂ)¡×f",
       "block.industrial_deco.vent_cover_2a": "ÅëÇ³±¸ ¶Ñ²± 2 ¡×b(A ÇüÅÂ)¡×f",
+      "block.industrial_deco.vent_cover_3b": "ÅëÇ³±¸ ¶Ñ²± 3 ¡×b(B ÇüÅÂ)¡×f",
       "block.industrial_deco.grate_floor_1b": "¼è°İÀÚ ¹Ù´Ú 1 ¡×b(B ÇüÅÂ)¡×f",
       "itemGroup.tabindustrial_deco_tab": "»ê¾÷¿ë Àå½Ä",
       "block.industrial_deco.grate_ceilling_1a": "¼è°İÀÚ ÃµÀå 1 ¡×b(A ÇüÅÂ)¡×f",
@@ -257,7 +307,9 @@
       "block.industrial_deco.vent_cover_2b": "Vent Cover 2 ¡×b(Type B)¡×f",
       "block.industrial_deco.vent_cover_1b": "Vent Cover 1 ¡×b(Type B)¡×f",
       "block.industrial_deco.grate_floor_1a": "Grate Floor 1 ¡×b(Type A)¡×f",
+      "block.industrial_deco.vent_cover_3a": "Vent Cover 3 ¡×b(Type A)¡×f",
       "block.industrial_deco.vent_cover_2a": "Vent Cover 2 ¡×b(Type A)¡×f",
+      "block.industrial_deco.vent_cover_3b": "Vent Cover 3 ¡×b(Type B)¡×f",
       "block.industrial_deco.grate_floor_1b": "Grate Floor 1 ¡×b(Type B)¡×f",
       "itemGroup.tabindustrial_deco_tab": "Industrial Decorations",
       "block.industrial_deco.grate_ceilling_1a": "Grate Ceilling 1 ¡×b(Type A)¡×f",
