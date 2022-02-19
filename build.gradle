@@ -11,7 +11,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 //apply plugin: 'maven-publish'
 
-version = '0.1.0'
+version = '1.16.5-0.1.0'
 group = 'net.apucsw.industrial_deco'
 archivesBaseName = 'industrial_deco'
 
@@ -91,7 +91,7 @@ jar {
         attributes([
             "Specification-Title": "Industrial Decorations",
             "Specification-Vendor": "KOR_APUcard",
-            "Specification-Version": "0.1.0",
+            "Specification-Version": "1.16.5-0.1.0",
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
             "Implementation-Vendor" :"KOR_APUcard",

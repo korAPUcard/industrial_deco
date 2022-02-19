@@ -9,6 +9,9 @@ displayName="Industrial Decorations"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="KOR_APUcard, MCreator"
+description='''
+This MOD will adds a few decorations for industrial buildings.
+'''
 
 [[dependencies.industrial_deco]]
     modId="minecraft"
