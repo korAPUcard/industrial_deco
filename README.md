@@ -15,6 +15,7 @@
 
 ### Description
 This MOD will adds few decorations for your industrial buildings.
+
 This mod was created to replace some of the many designs that many users typically use when using the Chisel & Bits mod with one template for performance reasons.   
 Due to the nature of the existing chiseled blocks, there was a problem that some performance degradation occurred if too many were placed on the server.
 
