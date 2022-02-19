@@ -9,6 +9,7 @@ buildscript {
 }
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
+//apply plugin: 'maven-publish'
 
 version = '0.1.0'
 group = 'net.apucsw.industrial_deco'
@@ -56,6 +57,25 @@ minecraft {
                 }
             }
         }
+		
+		data {
+            workingDirectory project.file('run')
+			
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+			
+			jvmArgs = [
+                    "--add-exports=java.base/sun.security.util=ALL-UNNAMED",
+                    "--add-opens=java.base/java.util.jar=ALL-UNNAMED"
+            ]
+			
+			
+            mods {
+                industrial_deco {
+                    source sourceSets.main
+                }
+            }
+        }
     }
 }
 
@@ -70,11 +90,11 @@ jar {
     manifest {
         attributes([
             "Specification-Title": "Industrial Decorations",
-            "Specification-Vendor": "APUC SW",
+            "Specification-Vendor": "KOR_APUcard",
             "Specification-Version": "0.1.0",
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
-            "Implementation-Vendor" :"APUC SW",
+            "Implementation-Vendor" :"KOR_APUcard",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }

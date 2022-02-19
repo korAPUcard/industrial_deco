@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: industrial_deco
+Implementation-Version: 0.1.0
+Specification-Vendor: KOR_APUcard
+Specification-Title: Industrial Decorations
+Implementation-Timestamp: 2022-02-19T04:42:56+00:00
+Specification-Version: 0.1.0
+Implementation-Vendor: KOR_APUcard

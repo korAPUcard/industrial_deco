@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Creative Commons Attribution-ShareAlike 4.0"
+
+[[mods]]
+modId="industrial_deco"
+version="0.1.0"
+displayName="Industrial Decorations"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="KOR_APUcard, MCreator"
+
+[[dependencies.industrial_deco]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.industrial_deco]]
+    modId="just_enough_items"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
