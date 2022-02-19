@@ -6,8 +6,8 @@ license="Creative Commons Attribution-ShareAlike 4.0"
 modId="industrial_deco"
 version="0.1.0"
 displayName="Industrial Decorations"
-credits="Mod created by KOR_APUcard"
-displayURL="https://github.com/korAPUcard/industrial_deco"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
 authors="KOR_APUcard, MCreator"
 
 [[dependencies.industrial_deco]]
