@@ -1,6 +1,8 @@
 # Industrial Decorations
 ### Minecraft MOD Project #5
 
+**Support MC Version**: 1.16.5
+
 **MOD Version**: 0.1.0 *(Work In Progress, Alpha test version)*   
 **NOTE**: Will be released soon as possible.
 
