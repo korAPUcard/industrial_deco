@@ -13,6 +13,11 @@
 
 -----
 
+### NOTICE
+**This mod will no longer be updated as development has been suspended indefinitely.**
+
+-----
+
 ### Description
 This MOD will adds few decorations for your industrial buildings.
 
